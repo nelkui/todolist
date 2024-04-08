@@ -27,7 +27,11 @@ mongoose
   .connect(mongoURI, connectionParams)
   .then(app.listen(3000, () => console.log('Server is running on 3000')))
   .catch((error) => handleError(error));
-
+  
+const handleError = (error) => {
+    console.error('An error occurred:', error);
+  };
+  
 //READ todos method
 app.get('/', async (req, res) => {
   try {
