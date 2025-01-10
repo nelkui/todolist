@@ -1,13 +1,13 @@
 # ToDoList
 
-一個簡單的用 EJS 寫的 ToDoList 單網頁 CRUD app 應用程式。
+
 
 # Function
 
-- Read 讀取儲存於 MongoDB Atlas 資料庫的 ToDo 項目
-- Add 新增 ToDo 項目
-- Delete 刪除 ToDo 項目
-- Edit 編輯 Todo 項目
+- Read MongoDB Atlas ToDo 
+- Add ToDo 
+- Delete ToDo
+- Edit Todo 
 
 # Demo
 
@@ -20,8 +20,8 @@
    Get connection string tutorial:
    https://www.mongodb.com/docs/guides/atlas/connection-string/
 
-2. Fork or Clone
-   Fork or clone this project from Github to get your own copy of it.
+2. Clone
+   clone this project from Github to get your own copy of it.
 
 3. Create .env file
    create `.env` file at the root of project, inside .env file add `DB_CONNECT` as env variable then paste your MongoDB Atlas connecting string:
