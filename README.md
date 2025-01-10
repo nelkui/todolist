@@ -9,11 +9,6 @@
 - Delete ToDo
 - Edit Todo 
 
-# Demo
-
-![screenshot](/Preview/Peri-ToDoList-01.png)
-![screenshot](/Preview/Peri-ToDoList-02.png)
-
 # Getting this project up and running
 
 1. Must have MongoDB Atlas connecting string
